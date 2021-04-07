@@ -1,0 +1,31 @@
+ h1{color: rgb(0, 204, 255);}
+  
+  *{border: solid;}
+
+.header{background-color: #ff00ff;
+          display : flex;
+          justify-content: space-between;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           }
+.grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-image: url();
+}
+.site-description{
+        display:flex;
+       flex-direction: column;
+       justify-content: first baseline;
+}
+.footer{
+        display:flex;
+        justify-content: flex-end;
+
+}
+p,h2{
+        text-align: center;
+}
+body{
+        background-color: #808080;
+}
